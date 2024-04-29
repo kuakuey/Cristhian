@@ -81,7 +81,7 @@
         }
         #cont1{
             padding: 2rem;
-            background-image: url("https://i.ibb.co/dkBynSp/434863424-2983351918479082-5362944842033567610-n.jpg"); /* Cambia los colores según tus preferencias */
+            background-image: url("https://raw.githubusercontent.com/kuakuey/Cristhian/master/public/img/434863424_2983351918479082_5362944842033567610_n.jpg"); /* Cambia los colores según tus preferencias */
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -93,7 +93,7 @@
             padding: 2rem;
             margin-top: 1.5rem;
             position: relative;
-            background-image: url("https://i.ibb.co/bQpnBSK/432929330-2983354901812117-3972320739686591497-n.jpg"); /* Cambia los colores según tus preferencias */
+            background-image: url("https://raw.githubusercontent.com/kuakuey/Cristhian/master/public/img/432929330_2983354901812117_3972320739686591497_n.jpg"); /* Cambia los colores según tus preferencias */
             background-repeat: no-repeat;
             background-size: cover;
             background-position: bottom right;
@@ -161,7 +161,7 @@
     z-index: 100;
     height: 100%;
     width: 100%;
-    background-image: url("https://i.ibb.co/0s2RJfW/435008679-2983330628481211-7449787089086534391-n.jpg");
+    background-image: url("https://raw.githubusercontent.com/kuakuey/Cristhian/master/public/img/435008679_2983330628481211_7449787089086534391_n.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
