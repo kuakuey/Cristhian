@@ -97,6 +97,9 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: bottom right;
+            /* cambios */
+            border: 1px solid red; 
+
         }
         #cont3{
             position: relative;
@@ -112,6 +115,7 @@
         height: 2rem;
         background-color: #c24616;
         border-radius: 50%;
+
     }
     .fotos{
         position: relative;
