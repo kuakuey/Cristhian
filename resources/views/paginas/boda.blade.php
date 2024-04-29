@@ -97,8 +97,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: bottom right;
-            /* cambios */
-            border: 1px solid red; 
+
 
         }
         #cont3{
