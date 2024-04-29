@@ -1,0 +1,425 @@
+*{
+    text-decoration: none;
+    color: #B3B1AC;
+}
+body {
+    font-family: "Konkhmer Sleokchher", system-ui;
+}
+body{
+    background: black;
+    color: white;
+}
+#ventana-principal{
+    position: absolute;
+    height: calc(100% - 1rem);
+    width: calc(100% - 1rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#nav{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 21%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    /* Aqui va en gris */
+}
+#nav #div2{
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+    background: #121212;
+    border-radius: 10px;
+    margin-top: 0.5 rem;
+}
+#menu{
+    background: #121212;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    align-items: baseline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#menu a {
+    display: flex;
+    align-items: center;
+    color: #B3B1AC;
+    font-size: 20px;
+    margin: 2px;
+    margin-left: 30px;
+    padding: 5px;
+    transition: 0.7s;
+
+}
+.material-symbols-outlined{
+    margin-right: 20px;
+}
+
+
+#menu a:hover{
+    color: white;
+}
+
+#biblioteca{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    align-items: center;
+    overflow-y: visible;
+    width: 100%;
+    height: calc(100% - 1.5rem);
+    top: 0.5rem;
+}
+#section_list{
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#sectbib{
+    padding-left: 1.5rem;
+}
+#section_list a{
+    display: flex;
+    align-items: center;
+    color: #B3B1AC;
+    font-size: 20px;
+    transition: 0.7s;
+
+}
+#section_list a:hover{
+    color: white;
+}
+#add{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+#add:hover{
+    background: rgb(179,177,172, 0.3);
+    opacity: 0.3;
+}
+
+#playlist{
+    border-radius: 10px;
+    width: 95%;
+    height: 20rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#inf{
+    background: #242424;
+    border-radius: 10px;
+    margin-inline: 0.5rem;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+#inf h3{
+    color: white;
+}
+
+#inf button{
+    border: none;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: black;
+    background: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+#inf button:hover{
+    transform: scale(1.1);
+}
+
+
+#terminos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 20px;
+
+}
+#terminos a{
+    color: #B3B1AC;
+    font-size: 11px;
+    margin-right: 10px;
+    padding-right: 16px;
+}
+.term{
+    margin-top: 16px;
+}
+
+#idioma{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #242424;
+    padding: 0.8rem;
+    border-radius: 3rem;
+    transition: 0.2s;
+    text-align: center;
+}
+#idioma:hover{
+    border: 1px solid white;
+    transform: scale(1.1);
+
+}
+
+.opciones{
+    transform: scale(1.1);
+}
+
+
+#content{
+    position: absolute;
+    height: 100%;
+    width: 78.5%;
+    top: 0;
+    right: 0;
+}
+#movil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    padding-inline: 1rem;
+}
+#contmovil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+#abrir{
+    background: white;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+}
+#web{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+#login{
+    position: relative;
+    background: rgba(16, 16, 16, 0.75);
+    
+    border-radius: 10px 10px 0 0 ;
+    top: 0;
+    height: 5rem;
+    z-index: 2;
+
+}
+.btn-opcionlogin{
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background: transparent;
+    margin: 0rem;
+    margin-right: 0.7rem;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    transition: 0.1s;
+    padding-inline: 30px;
+    color: #B3B1AC;
+
+}
+#iniciarsesion{
+    color: black;
+    text-decoration: bor;
+    background: white;
+}
+
+.btn-opcionlogin:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+#prueba{
+    position: relative;
+    height: 100%;
+}
+#content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#cont1{
+    position: absolute;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+}
+#cont2{
+    overflow-y: auto;
+    position: absolute;
+    bottom: 0;
+    height: calc(100% - 5rem);
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+
+}
+
+#contenido{
+    background: #1d1d1d;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+.cabeceraArtista{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 2rem;
+    margin-bottom: -1rem;
+    margin-top: 2rem;
+}
+
+#cabeceraArtista{
+    margin-top: 0;
+}
+
+#cabeceraArtista a h2{
+    color: white;
+}
+.cabeceraArtista a h2{
+    color: white;
+}
+
+#artistas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.8rem;
+}
+#cardArtista *{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+#cardArtista{
+    border-radius: 1rem;
+
+    margin: 0;
+    padding: 0.4rem;
+    transition: 0.2s;
+}
+.cartilla{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#cardArtista:hover{
+    background: #1a1a1a;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 2rem;
+
+
+}
+#informacion{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#enlaces{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+#enlaces h3{
+    margin: 0;
+    gap: 0;
+}
+
+#redessociales button{
+    background: #292929;
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin-right: 1rem;
+    height: 3rem;
+    width: 3rem;
+
+}
+#redessociales button:hover{
+    background: #9e9d9d62;
+}
+
+
+#play{
+    position: absolute;
+    z-index: 100;
+    right: 0.6rem;
+    bottom: -2rem;
+    font-size: 4rem;
+    transition: 0.2s;
+    opacity: 0;
+}
+#cardArtista:hover{
+
+    #play{
+        transform: translateY(-50px);
+        opacity: 1;
+    }    
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: white;
+}

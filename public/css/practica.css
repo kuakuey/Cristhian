@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translate(0 - 50%);
+}
+.cuadrado{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.cuadrado_1{
+    background: black;
+}
+.cuadrado_2{
+    background: var(--myColor);
+}
+.cuadrado_3{
+    background: red;
+}
+.cuadrado_4{
+    background: blue;
+}
+.cuadrado_5{
+    border: 1px solid black;
+}
+h1 {
+    margin: 1rem;
+    text-align: center;
+  }
+.flair {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+:root {
+    --myColor: #00bae2;
+}
+
+
+
+button {
+    padding: 15rem 30rem;
+    font-size: 18px;
+    border: none;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  button::before {
+    content: '';
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  button:hover::before {
+    width: 0;
+    height: 0;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    pointer-events: none;
+    z-index: -100;
+  }
+
+  #animatedButton{
+    font-size: 3rem;
+  }
+
+  .contenedor{
+    border: 1px solid red;
+    height: 100vh;
+  }

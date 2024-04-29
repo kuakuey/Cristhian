@@ -1,0 +1,70 @@
+@media only screen and (max-width: 830px) {
+    #nav {
+        display: none;
+    }
+    #artistas{
+        overflow-x: auto;
+    }
+    #content{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    #contenido{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        overflow-y: visible;
+        height: 100%;
+    }
+    .info{
+        flex-direction: column;
+    }
+    #informacion{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    #web{
+        display: none;
+    }
+    #login{
+        background: black;
+        height: 3.5rem;
+    }
+    #cont2{
+        height: calc(100% - 4rem);
+        border-radius: 0;
+    }
+    #ventana-principal{
+        margin: 0;
+        position: static;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #informacion{
+        gap: 3rem;
+    }
+}
+@media only screen and (min-width: 831px)and (max-width:1300px){
+    #redessociales button{
+        margin-right: 0.5rem;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    #idioma a{
+        font-size: 0.8rem;
+    }
+    #sectbib a{
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (min-width: 831px){
+    #movil{
+        display: none;
+    }
+}
+    

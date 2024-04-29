@@ -1,0 +1,139 @@
+@import url(https://db.onlinewebfonts.com/c/12edea040c87dd91d377e1f1382f43c2?family=CircularSpUIv3T-Book);
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "CircularSpUIv3T-Book";
+
+}
+#cont{
+    position: a;
+    height: 100%;
+}
+
+#cabecera{
+    background: #121212;
+    height: auto;
+    padding: 2rem 3rem 2rem 3rem;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bi--spotify{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+#cabecera a{
+    color: white;
+    font-size: 1.3rem;
+}
+
+#cuerpo {
+    position: relative;
+    background: linear-gradient(to bottom, #2a2a2a, black);
+    background-repeat: no-repeat;
+    height: 100%;
+
+    width: 100%;
+    margin: 0;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+#form{
+    position: relative;
+    background: #121212;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 734px;
+}
+#form h1{
+    color: white;
+    align-items: center;
+    font-size: 3rem;
+    padding: 51px;
+    padding-bottom: 2rem;
+}
+
+#opcsesion{
+    position: relative;
+    margin-inline: 13rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#opcsesion button{
+    width: 100%;
+    height: 3rem;
+    border-radius: 3rem;
+    font-size: 1.1rem;
+    
+    color: white;
+    background: transparent;
+    border: none;
+    border: 1px solid rgb(118, 118, 118);
+}
+#opcsesion button:hover{
+    border: 1px solid white;
+}
+
+
+#formulario-general{
+    margin-top: 5rem;
+    position: relative;
+    height: 100%;
+}
+#formularioin{
+    position: relative;
+    margin-inline: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 2rem;
+    height: 20rem;
+}
+#formularioin h4{
+    color: white;
+    gap: 0;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+}
+#log{
+    margin-top: 0;
+}
+#formularioin input{
+    position: absolute;
+    width: calc(100% - 4px);
+    height: 2.5rem;
+}
+#iniciar{
+    position: absolute;
+    width: 100%;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    background: #1ed760;
+}
+
+#footer{
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: white;
+}

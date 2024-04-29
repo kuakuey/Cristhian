@@ -1,0 +1,29 @@
+#PresentacionTabla *{
+    margin: 0;
+    padding: 0;
+}
+
+#PresentacionTabla{
+    position: absolute;
+    width:calc(100% - 4rem);
+    height: calc(100% - 4rem);
+    align-content: baseline;
+    margin: 2rem;
+    overflow-x: auto;
+    display: block;
+
+}
+
+.table{
+    width: 100%;
+}
+.table *{
+    border: 1px solid rgb(83, 83, 83);
+    height: 3rem;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    background: rgb(83, 83, 83);
+}
